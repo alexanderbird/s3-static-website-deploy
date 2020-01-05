@@ -29,7 +29,7 @@ module.exports = config => {
       return aws.command(
         `s3 website "s3://${
           config.domain
-        }" --index-document index.html --region ${config.region}`,
+        }" --index-document index.html --error-document index.html --region ${config.region}`,
       );
     })
     .then(() => {
