@@ -1,6 +1,6 @@
 {
   "name": "s3-static-website-deploy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easily deploy static websites to an AWS S3 bucket",
   "main": "index.js",
   "bin": {
